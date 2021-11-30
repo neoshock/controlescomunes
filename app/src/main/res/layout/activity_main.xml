@@ -80,7 +80,7 @@
         android:layout_marginTop="395dp"
         android:layout_toEndOf="@+id/textView8"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:minHeight="48dp"
         tools:text="Telefono" />
 
@@ -93,6 +93,7 @@
         android:layout_marginTop="12dp"
         android:layout_toEndOf="@+id/textView6"
         android:checkedButton="@id/masculinoRb"
+        android:onClick="onRadioButtonClicked"
         android:orientation="vertical">
 
         <RadioButton
@@ -129,6 +130,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="158dp"
         android:layout_marginBottom="90dp"
+        android:onClick="enviarDatos"
         android:text="Enviar" />
 
 </RelativeLayout>
